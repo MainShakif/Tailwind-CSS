@@ -1,0 +1,31 @@
+/* .text-responsive {
+  font-size: 80px;
+  background-color: yellow;
+  margin: 10px;
+  padding: 5px;
+  border: 4px solid red;
+}
+
+@media (max-width: 500px) {
+  .text-responsive {
+    font-size: 40px;
+    background-color: green;
+    border: 4px solid blue;
+  }
+}
+@media (min-width: 501px) and (max-width: 900px) {
+  .text-responsive {
+    color: aqua;
+    font-size: 60px;
+    background-color: midnightblue;
+    border: 4px solid #f70505;
+  }
+}
+@media (min-width: 901px) {
+  .text-responsive {
+    color: aqua;
+    font-size: 100px;
+    background-color: burlywood;
+    border: 4px solid yellow;
+  }
+} */

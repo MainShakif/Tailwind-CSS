@@ -7,16 +7,28 @@
 
     <!-- *tailwindCSS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body
-    class="bg-[url('./bg-images/bg-img2.jpg')] bg-cover bg-no-repeat bg-center"
-  >
+  <body>
+    <!-- card -->
+    <div class="border-2 border-amber-400 h-64 w-74 m-10">
+      <h2 class="text-cyan-00 text-4xl text-center font-bold m-5 p-2">
+        Min width is flexible for responsive design
+      </h2>
+    </div>
+
+    <!-- code for media query -->
+
+    <p class="text-responsive">This is a responsive text</p>
+
+    <!--  *class="bg-[url('./bg-images/bg-img2.jpg')] bg-cover bg-no-repeat bg-center" -->
     <h1 class="text-purple-300 font-medium text-4xl text-center">
       Hello Tailwind CSS!!!
     </h1>
 
     <h2
-      class="text-cyan-00 text-4xl text-center font-bold border-10 border-green-800 rounded-2xl m-5 p-4"
+      class="text-cyan-00 text-[25px] sm:text-[30px] md:text-[45px] lg:text-[60px] xl:text-[80px] text-[orange] sm:text-[tomato] md:text-[aqua] lg:text-[blue] xl:text-[green] text-center font-bold border-10 border-green-800 rounded-xl p-4"
     >
       Tailwind day one
     </h2>
